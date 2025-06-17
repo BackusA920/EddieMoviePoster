@@ -1,7 +1,7 @@
 <h1>Eddie and the Cruisers Movie Review | 80s Rock Tribute</h1>
 
 <p>
-A bold, accessible tribute site honoring the cult classic film <strong>Eddie and the Cruisers</strong>. This project fuses layered design with semantic code, Spotify music integration, and immersive visual storytelling — all with a performance-first, screen-reader-friendly foundation.
+A bold, accessible tribute site honoring the cult classic film <strong>Eddie and the Cruisers</strong>. This project fuses layered design with semantic code, Spotify music integration, and immersive visual storytelling all with a performance-first, screen-reader-friendly foundation.
 </p>
 
 <p>Key features include:</p>
@@ -48,5 +48,5 @@ A bold, accessible tribute site honoring the cult classic film <strong>Eddie and
 <h2>License</h2>
 
 <p>
-This project is for educational and creative purposes only. All referenced media — including images, music, and film content — belongs to their original rights holders.
+This project is for educational and creative purposes only. All referenced media including images, music, and film content belongs to their original rights holders.
 </p>

@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #f2f2f2;
+  background:
+    url('assets/vecteezy_rustic-grunge-texture-with-grain-and-stains-abstract-noise_22934459.png') repeat,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(30, 0, 0, 0.88)),
+    url('assets/vecteezy_music-guitar_1208185.png') no-repeat right bottom;
+  background-blend-mode: overlay, multiply;
+  background-size: auto, cover, 700px;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #ff2e2e;
+  text-shadow: 0 0 15px #ff0000, 0 0 30px rgba(255, 0, 0, 0.5);
+  letter-spacing: 3px;
+}
+
+.tagline {
+  color: #ffc6c6;
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.50rem;
+}
+
+
+.audio-section {
+  text-align: center;
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: rgba(15, 15, 15, 0.6);
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 20px rgba(255, 60, 60, 0.3);
+}
+
+.audio-section h2 {
+  color: #ff5f5f;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.track-note {
+  margin-top: 1rem;
+  font-size: 1.30rem;
+  color: #ccc;
+}
+
+
+.poster-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+figure img {
+  border-radius: 10px;
+  border: 3px solid rgba(255, 60, 60, 0.5);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+
+figcaption {
+  color: #999;
+  margin-top: 0.5rem;
+  font-size: 1.30rem;
+  text-align: center;
+  
+}
+
+article {
+  max-width: 700px;
+  background-color: rgba(20, 0, 0, 0.4);
+  padding: 1.5rem;
+  border-left: 5px solid #ff4d4d;
+  border-right: 5px solid #ff4d4d;
+  border-radius: 6px;
+  backdrop-filter: blur(2px);
+}
+
+article h2 {
+  color: #ff4d4d;
+  border-bottom: 2px solid rgba(255, 77, 77, 0.3);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+article p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #fdd866;
+}
+
+
+.cast {
+  max-width: 700px;
+  margin: 4rem auto;
+  background-color: rgba(15, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 5px solid #ff4d4d;
+  border-right: 5px solid #ff4d4d;
+  box-shadow: 0 0 15px rgba(255, 30, 30, 0.2);
+  backdrop-filter: blur(3px);
+}
+
+.cast h2 {
+  text-align: center;
+  color: #ff7676;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.cast ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.cast li {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #ff4d4d;
+  font-size: 1rem;
+}
+
+.cast li strong {
+  color: #ff4d4d;
+}
+
+.cast li em {
+  font-style: italic;
+  color: #eee;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 2px solid #f84c4c;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.eddie-poster {
+  display: block;
+  max-width: 90%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 4px solid rgba(255, 60, 60, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
